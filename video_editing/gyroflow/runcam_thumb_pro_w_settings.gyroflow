@@ -1,0 +1,172 @@
+{
+    "calibration_data": {
+        "asymmetrical": false,
+        "calib_dimension": {
+            "h": 2880,
+            "w": 3840
+        },
+        "calibrated_by": "Elvin",
+        "calibrator_version": "1.3.0",
+        "camera_brand": "Runcam",
+        "camera_model": "ThumbPW",
+        "camera_setting": "4k30xv",
+        "compatible_settings": [
+        ],
+        "crop": null,
+        "crop_factor": null,
+        "date": "2022-11-17",
+        "digital_lens": null,
+        "digital_lens_params": null,
+        "distortion_model": null,
+        "fisheye_params": {
+            "RMS_error": 0.647767541119451,
+            "camera_matrix": [
+                [
+                    1851.9010438887967,
+                    0,
+                    1963.2789218465853
+                ],
+                [
+                    0,
+                    1850.3816074241083,
+                    1410.7431602348374
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "distortion_coeffs": [
+                -0.005589201960606514,
+                -0.03994917278844891,
+                0.06278279005440468,
+                -0.03464652884885514
+            ],
+            "radial_distortion_limit": null
+        },
+        "focal_length": null,
+        "fps": 30,
+        "frame_readout_time": 17.98,
+        "global_shutter": false,
+        "gyro_lpf": 70,
+        "identifier": "runcam-thumbpw-xv-3840x2160@30000",
+        "input_horizontal_stretch": 1,
+        "input_vertical_stretch": 1.333333333333,
+        "interpolations": null,
+        "lens_model": "xv",
+        "name": "Runcam_ThumbPW_xv_4k30xv_4k_4by3_3840x2880-30.00fps",
+        "note": "",
+        "num_images": 15,
+        "official": true,
+        "orig_dimension": {
+            "h": 2880,
+            "w": 3840
+        },
+        "output_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "sync_settings": {
+            "do_autosync": true,
+            "every_nth_frame": 1,
+            "initial_offset": 0,
+            "initial_offset_inv": false,
+            "max_sync_points": 5,
+            "search_size": 3,
+            "time_per_syncpoint": 0.7
+        }
+    },
+    "gyro_source": {
+        "acc_rotation": [
+            0,
+            0,
+            0
+        ],
+        "gyro_bias": null,
+        "imu_orientation": "YxZ",
+        "integration_method": 2,
+        "lpf": 70,
+        "rotation": [
+            0,
+            0,
+            0
+        ]
+    },
+    "output": {
+        "audio": true,
+        "bitrate": 57,
+        "codec": "H.265/HEVC",
+        "codec_options": "",
+        "output_filename": "",
+        "output_height": 2160,
+        "output_width": 3840,
+        "use_gpu": true
+    },
+    "stabilization": {
+        "adaptive_zoom_center_offset": [
+            0,
+            0
+        ],
+        "adaptive_zoom_method": 0,
+        "adaptive_zoom_window": 4,
+        "fov": 1,
+        "frame_readout_time": 17.98,
+        "horizon_lock_amount": 0,
+        "horizon_lock_roll": 0,
+        "lens_correction_amount": 0.66,
+        "method": "Default",
+        "smoothing_params": [
+            {
+                "name": "smoothness",
+                "value": 0.333
+            },
+            {
+                "name": "smoothness_pitch",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_yaw",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_roll",
+                "value": 0.5
+            },
+            {
+                "name": "per_axis",
+                "value": 0
+            },
+            {
+                "name": "trim_range_only",
+                "value": 0
+            },
+            {
+                "name": "max_smoothness",
+                "value": 1
+            },
+            {
+                "name": "alpha_0_1s",
+                "value": 0.1
+            }
+        ],
+        "use_gravity_vectors": false,
+        "video_speed": 1,
+        "video_speed_affects_smoothing": true,
+        "video_speed_affects_zooming": true
+    },
+    "synchronization": {
+        "auto_sync_points": false,
+        "calc_initial_fast": false,
+        "every_nth_frame": 1,
+        "initial_offset": 0,
+        "initial_offset_inv": false,
+        "max_sync_points": 10,
+        "of_method": 2,
+        "offset_method": 2,
+        "pose_method": 0,
+        "search_size": 3,
+        "time_per_syncpoint": 0.7
+    },
+    "version": 2
+}
