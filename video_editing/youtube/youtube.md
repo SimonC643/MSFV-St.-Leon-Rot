@@ -13,3 +13,8 @@ Besuche uns auf https://mfsv-stleon-rot.de/
 Datum
 Modell
 ``` 
+
+#### Tags
+``` 
+RC-Plane,FPV,Modellflug
+``` 
